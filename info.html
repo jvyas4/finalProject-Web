@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="info.css" />
+  </head>
+  <body>
+    <!-- adding the navbar -->
+    <nav class="navbar">
+      <h1 class="logo">Chessify</h1>
+      <ul class="navlist">
+        <a href="index.html" class="navlistitem">Home</a>
+        <a href="info.html" class="navlistitem">Info</a>
+        <a href="reviews.html" class="navlistitem">Reviews</a>
+      </ul>
+    </nav>
+    <!-- adding the history of the game -->
+    <h2 class="mainHeading">History of Chess</h2>
+    <div class="aboutGame">
+      <section class="side3">
+        <p class="para1">
+          The origin of chess is believed to be in ancient India, where a game
+          called chaturanga was played in the 6th century. Chaturanga was a
+          strategic game that included pieces representing infantry, cavalry,
+          elephants, and chariots, and a king that had to be protected at all
+          costs. The game spread to Persia, where it underwent significant
+          changes, including the introduction of new pieces and a board with 64
+          squares.
+        </p>
+      </section>
+      <section class="side4">
+        <img src="history1.jpeg" alt="" class="about" />
+      </section>
+    </div>
+    <div class="aboutGame">
+      <section class="side3">
+        <p class="para1">
+          The origin of chess is believed to be in ancient India, where a game
+          called chaturanga was played in the 6th century. Chaturanga was a
+          strategic game that included pieces representing infantry, cavalry,
+          elephants, and chariots, and a king that had to be protected at all
+          costs. The game spread to Persia, where it underwent significant
+          changes, including the introduction of new pieces and a board with 64
+          squares.
+        </p>
+      </section>
+      <section class="side4">
+        <img src="history2.jpeg" alt="" class="about" />
+      </section>
+    </div>
+    <!-- adding the media -->
+
+    <div class="youtubevideocontainer">
+      <iframe
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed/w2aCK1yT8Ms"
+        class="videosize"
+      >
+      </iframe>
+    </div>
+    <h2 class="mainHeading">The Rules</h2>
+    <!-- rules of how to play the game -->
+
+    <ul class="rulesContainer" type="1">
+      <li class="singleRule">
+        1. The game is played on a square board with 64 squares, arranged in an 8x8
+        grid.
+      </li>
+      <li class="singleRule">
+        2. Each player begins the game with 16 pieces: one king, one queen, two
+        rooks, two knights, two bishops, and eight pawns.
+      </li>
+      <li class="singleRule">
+        3. The pieces are arranged on the board as follows: the two rooks go in the
+        corners, then the knights next to them, followed by the bishops, and
+        then the queen, who always goes on her own matching color. The king goes
+        in the remaining square.
+      </li>
+      <li class="singleRule">
+        4. The player with the white pieces moves first, and then players take
+        turns making one move at a time.
+      </li>
+      <li class="singleRule">
+        5. Each piece has its own unique way of moving, and these movements are
+        determined by the type of piece.
+      </li>
+      <li class="singleRule">
+        6. The objective of the game is to checkmate the opponent's king, which
+        means that the king is under attack (in check) and cannot escape capture
+        on the next move.
+      </li>
+      <li class="singleRule">
+        7. A player can also win the game by the opponent resigning or by the game
+        being declared a draw.
+      </li>
+      <li class="singleRule">
+        8. There are several special moves in chess, including castling, en
+        passant, and promotion, which involve moving multiple pieces at once or
+        changing the rank or file of a pawn.
+      </li>
+      <li class="singleRule">
+        9. A game can be won, lost, or drawn in various ways, and these outcomes
+        are determined by the final position of the pieces on the board.
+      </li>
+    </ul>
+    <!-- the tips -->
+    <h2 class="mainHeading">The Tips</h2>
+    <ul class="tipsContainer">
+      <li class="singleRule">
+        1. Control the center of the board: The center of the board is the most
+        important area of the chessboard. Controlling the center with your
+        pieces can give you a significant advantage in the game.
+      </li>
+      <li class="singleRule">
+        2. Develop your pieces: Move your pieces out from their starting positions
+        and develop them towards the center of the board. This allows you to
+        control more squares and put pressure on your opponent.
+      </li>
+      <li class="singleRule">
+        3. Protect your king: Always make sure your king is safe and not exposed to
+        any potential attacks. Castle early in the game to get your king to a
+        safer position.
+      </li>
+      <li class="singleRule">
+        4. Look for your opponent's weaknesses: Keep an eye out for your opponent's
+        weaknesses and try to exploit them. This could be an unprotected piece,
+        a weak pawn structure, or a poorly placed king.
+      </li>
+      <li class="singleRule">
+        5. Plan your moves ahead: Try to think several moves ahead and plan your
+        strategy accordingly. This helps you to anticipate your opponent's
+        responses and make more informed decisions.
+      </li>
+      <li class="singleRule">
+        6. Use tactics and combinations: Learn and practice chess tactics such as
+        forks, pins, and skewers. These can help you win material and gain an
+        advantage in the game.
+      </li>
+      <li class="singleRule">
+        7. Maintain the initiative: Try to maintain the initiative in the game by
+        keeping your opponent on the defensive and forcing them to react to your
+        moves.
+      </li>
+      <li class="singleRule">
+        8. Keep your cool: Stay calm and focused during the game, and avoid making
+        impulsive moves. Chess is a game of patience and strategy, so take your
+        time and think carefully before making a move.
+      </li>
+    </ul>
+    <!-- adding the form -->
+    <form
+    id="newsletter-form"
+    method="POST"
+    action="https://httpbin.org/post"
+    class="newsletter"
+  >
+    <label for="email-input" class="headingNewsletter"
+      >Enter your email to join our newsletter:</label
+    >
+    <section class="newsLetterSmallContainer">
+      <input
+        type="email"
+        id="email-input"
+        name="email"
+        required
+        class="newsletterInput"
+      />
+      <input
+        type="hidden"
+        name="name"
+        value="myname"
+        class="newsletterInput"
+      />
+      <button type="submit" class="btn2">Join</button>
+    </section>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.aboutimg {
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 90%);
+  width: 30vw;
+  height: 60vh;
+}
+.navbar {
+  display: flex;
+  font-size: large;
+  background: #222831;
+  padding: 1rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 200%;
+  border-bottom: 1px white solid;
+}
+.logo {
+  color: whitesmoke;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.navlistitem {
+  text-decoration: none;
+  list-style: none;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.5s 0s;
+  max-width: fit-content;
+  color: white;
+}
+.navlistitem:hover {
+  color: azure;
+  padding: 0 1rem;
+}
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  background: #222831;
+  padding: 6rem 1rem;
+}
+.side1 {
+  width: 50%;
+}
+.side2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading1 {
+  font-size: 3rem;
+  color: white;
+}
+.btn1 {
+  padding: 1rem 3rem;
+  border: 1px solid transparent;
+  background-color: #00adb5;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.6s;
+  margin: 1rem 0;
+  outline: none;
+  color: white;
+}
+.btn1:hover {
+  opacity: 0.8;
+}
+.homeimg {
+  width: 30vw;
+  height: 60vh;
+}
+.youtubevideocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.videosize {
+  width: 70%;
+  height: 70vh;
+}
+.aboutGame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+.side3 {
+}
+.side4 {
+}
+.para1 {
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+
+.newsletter {
+  background-color: #222831;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.headingNewsletter {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.newsletterInput {
+  padding: 1rem 1.3rem;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.6s;
+  margin: 1rem 0;
+  outline: none;
+}
+.newsLetterSmallContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.btn2 {
+  padding: 1rem 1.3rem;
+  border: 1px solid transparent;
+  background-color: #00adb5;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.6s;
+  margin: 1rem 0;
+}
+.mainHeading {
+  text-align: center;
+  color: #222831;
+  font-size: 3rem;
+  border-bottom: 2px solid #00adb5;
+  max-width: fit-content;
+  margin: 1rem auto;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter {
+    padding:2rem;
+
+  }
+  .newsLetterSmallContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.45rem auto;
+  }
+  .aboutimg {
+    width: 80vw;
+    height: 60vh;
+  }
+  .aboutGame {
+    flex-direction: column;
+    width: 100%;
+  }
+  .headingNewsletter {
+    font-size: 1.2rem;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 1rem 0rem;
+  }
+  .logo {
+    text-align: center;
+  }
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 140vh;
+    background: #222831;
+    padding: 6rem 1rem;
+  }
+  .side1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .side2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  .btn1 {
+    margin: 1rem auto;
+  }
+  .homeimg {
+    width: 90vw;
+    height: 50vh;
+  }
+  .videosize {
+    width: 100%;
+    height: 50vh;
+  }
+  .mainHeading {
+    font-size: 2rem;
+  }
+}

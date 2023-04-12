@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!--Honest Declaration:
+  Name: Jugal Vyas
+Student id: 165235219
+I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+ No part of this assessment has been copied manually or electronically from any other
+source (including web sites) except for the information supplied by the WEB222 instructors
+and / or made available in this assessment for my use. I also declare that no part of this
+ assignment has been distributed to other students.-->
+  <body>
+    <!-- adding the navbar -->
+    <nav class="navbar">
+      <h1 class="logo">Chessify</h1>
+      <ul class="navlist">
+        <a href="index.html" class="navlistitem">Home</a>
+        <a href="info.html" class="navlistitem">Info</a>
+        <a href="reviews.html" class="navlistitem">Reviews</a>
+      </ul>
+    </nav>
+    <!-- adding the home page -->
+    <div class="homeContainer">
+      <section class="side1">
+        <h2 class="heading1">
+          Checkmate Your Opponents with the Latest Chess News and Strategies!
+        </h2>
+        <button class="btn1" onclick="window.location.href='https://www.chess.com/play/computer';">
+          Play a demo here!
+        </button>
+
+      </section>
+      <section class="side2">
+        <img src="home.jpeg" alt="" class="homeimg" />
+      </section>
+    </div>
+    <!-- adding the youtube imagea and video -->
+    <div class="youtubevideocontainer">
+      <iframe
+        width="300"
+        height="150"
+        src="https://www.youtube.com/embed/fKxG8KjH1Qg"
+        class="videosize"
+      >
+      </iframe>
+    </div>
+    <!-- adding the about of the game -->
+    <h2 class="mainHeading">About</h2>
+
+    <div class="aboutGame">
+      <section class="side3">
+        <p class="para1">
+          Chess is a two-player strategy board game played on a checkered
+          gameboard called a chessboard. The game is believed to have originated
+          in India in the 6th century and has since spread around the world.
+          Each player begins the game with 16 pieces: one king, one queen, two
+          rooks, two knights, two bishops, and eight pawns. The goal of the game
+          is to checkmate the opponent's king, which means putting it into a
+          position where it is under attack and cannot escape capture. Chess is
+          a game of skill, strategy, and tactics, and is enjoyed by millions of
+          people around the world.
+        </p>
+        <p class="para1">
+          The origin of chess is believed to be in ancient India, where a game
+          called chaturanga was played in the 6th century. Chaturanga was a
+          strategic game that included pieces representing infantry, cavalry,
+          elephants, and chariots, and a king that had to be protected at all
+          costs. The game spread to Persia, where it underwent significant
+          changes, including the introduction of new pieces and a board with 64
+          squares.
+        </p>
+      </section>
+      <section class="side4">
+        <img src="about.jpeg" alt="" class="aboutimg" />
+      </section>
+    </div>
+    <!-- adding the newsletter form -->
+    <form
+      id="newsletter-form"
+      method="POST"
+      action="https://httpbin.org/post"
+      class="newsletter"
+    >
+      <label for="email-input" class="headingNewsletter"
+        >Enter your email to join our newsletter:</label
+      >
+      <section class="newsLetterSmallContainer">
+        <input
+          type="email"
+          id="email-input"
+          name="email"
+          required
+          class="newsletterInput"
+        />
+        <input
+          type="hidden"
+          name="name"
+          value="myname"
+          class="newsletterInput"
+        />
+        <button type="submit" class="btn2">Join</button>
+      </section>
+    </form>
+  </body>
+</html>

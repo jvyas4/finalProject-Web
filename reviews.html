@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reviews.css" />
+  </head>
+   <!--Honest Declaration:
+  Name: Jugal Vyas
+Student id: 165235219
+I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+ No part of this assessment has been copied manually or electronically from any other
+source (including web sites) except for the information supplied by the WEB222 instructors
+and / or made available in this assessment for my use. I also declare that no part of this
+ assignment has been distributed to other students.-->
+  <body>
+    <!-- adding the navbar -->
+    <nav class="navbar">
+      <h1 class="logo">Chessify</h1>
+      <ul class="navlist">
+        <a href="index.html" class="navlistitem">Home</a>
+        <a href="info.html" class="navlistitem">Info</a>
+        <a href="reviews.html" class="navlistitem">Reviews</a>
+      </ul>
+    </nav>
+    <!-- adding the reviews -->
+    <h2 class="mainHeading">Our Reviews</h2>
+    <!-- adding the reviews container -->
+    <div id="reviewContainer"></div>
+    <form
+      id="newsletter-form"
+      method="POST"
+      action="https://httpbin.org/post"
+      class="newsletter"
+    >
+      <label for="email-input" class="headingNewsletter"
+        >Enter your email to join our newsletter:</label
+      >
+      <section class="newsLetterSmallContainer">
+        <input
+          type="email"
+          id="email-input"
+          name="email"
+          required
+          class="newsletterInput"
+        />
+        <input
+          type="hidden"
+          name="name"
+          value="myname"
+          class="newsletterInput"
+        />
+        <button type="submit" class="btn2">Join</button>
+      </section>
+    </form>
+  </body>
+  <script src="reviews.js"></script>
+</html>
